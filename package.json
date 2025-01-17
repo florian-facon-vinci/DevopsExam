@@ -13,6 +13,7 @@
     "jasmine": "^5.5.0"
   },
   "dependencies": {
+    "jasmin": "^0.0.2",
     "tdd-ipl": "file:"
   }
 }
