@@ -12,7 +12,6 @@ describe("password is available", function (){
         expect(result).toBe(true);
     });
 
-    
     it("Test contains a special characters",function (){
         
         const password = "12345678"
@@ -20,8 +19,5 @@ describe("password is available", function (){
 
         expect(result).toBe(false);
     });
-
-    
-
 });
 

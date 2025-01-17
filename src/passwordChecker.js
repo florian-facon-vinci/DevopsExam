@@ -4,15 +4,11 @@ export class Main{
         if(password.length >= 8){
             return true;
         }
-        
-
-
+     
         const special = /[!@#$%^&*(),.?":{}|<>]/;
-        if (!special.test(password)) {
-            return false;
+        if (special.test(password)) {
+            return true;
         }
-        
-        
         return false;
     }
 }
