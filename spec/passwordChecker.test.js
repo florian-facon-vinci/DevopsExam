@@ -13,7 +13,15 @@ describe("password is available", function (){
     });
 
     
+    it("Test contains a special characters",function (){
+        
+        const password = "12345678"
+        const result = main.passwordChecker(password);
 
+        expect(result).toBe(false);
+    });
+
+    
 
 });
 
